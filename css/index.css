@@ -249,6 +249,68 @@ img.header-img {
 
 /* END OF THE CHANGING OF COLOR SELECTOR */ 
 
+section.about-container {
+    padding-top: 12px;
+    margin-left: 16px;
+    padding-bottom: 12px;
+}
+
+/* Creates dashed line under about page */
+
+hr{
+    border: .5px dashed black;  
+}
+
+/* END */
+
+
+
+/* START OF FLEX CONTAINER */
+
+.flex-container{
+    display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.flex-container div {
+    width: 48%;
+    padding: 5px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+.flex-container div h2 {
+    padding-top: 12px;
+}
+
+.flex-container div p {
+    padding-bottom: 12px;
+}
+
+.flex-container div button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 11px;
+    width: 131px;
+    height: 44px;
+    font-size: 17px;
+}
+
+.work-together-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+/* END OF FLEX BOXES USED IN PAGE */
 
 .bottom-content {
     display: flex;
